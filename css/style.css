@@ -219,9 +219,14 @@ html {
 }
 
 .social {
+    padding-top: 5px;
     display: flex;
     flex-wrap: wrap;
     column-gap: 5px;
+}
+
+.icon {
+    width: 20px;
 }
 
 /*Section Footer*/
