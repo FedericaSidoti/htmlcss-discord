@@ -39,6 +39,10 @@ html {
     padding: 8px 12px; 
 }
 
+*[class^='col-'] {
+    padding: 10px;
+}
+
 /*Header*/
 
 .header {
@@ -87,11 +91,6 @@ html {
     font-size: 40px;
 }
 
-.section-text {
-    padding: 15px 30px;
-    text-align: center;
-}
-
 /*Section onecol*/
 
 #section-onecol {
@@ -102,7 +101,7 @@ html {
 
 #section-onecol .row {
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #section-onecol .col-11 {
@@ -112,6 +111,15 @@ html {
     flex-direction: column ;
     align-items: center;
     color: white;
+}
+
+#section-onecol .section-text{
+    padding: 15px 30px;
+    text-align: center;
+}
+
+#section-onecol .section-title {
+    text-align: center;
 }
 
 .buttons {
@@ -135,10 +143,15 @@ html {
 
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
+    padding: 0 10px;
 }
 
 .col-7 {
     flex-basis: calc((100% / 12) * 7);
+}
+
+.col-5 .section-text, .col-5 .section-title {
+    padding: 5px 30px;
 }
 
 #gray-twocol .row {
