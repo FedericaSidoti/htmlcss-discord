@@ -144,6 +144,20 @@ html {
 }
 /*Section twocol*/
 
+.wave {
+    height: 40px;
+}
+
+.img-wave {
+    width: 100%;
+    height: 100%;
+    filter: opacity(18%); 
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
 .col-5 {
     flex-basis: calc((100% / 12) * 5);
     padding: 0 10px;
