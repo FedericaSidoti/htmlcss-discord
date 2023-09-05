@@ -113,12 +113,12 @@ html {
     color: white;
 }
 
-#section-onecol .section-text{
+.col-11 .section-text {
     padding: 15px 30px;
     text-align: center;
 }
 
-#section-onecol .section-title {
+.col-11 .section-title, .col-12 .section-title {
     text-align: center;
 }
 
@@ -161,7 +161,33 @@ html {
 #gray-twocol .row {
     flex-direction: row-reverse;
 }
+/*Section onecol-big*/
 
+.col-12 .section-text {
+    text-align: center;
+    padding: 5px 30px;
+}
+
+.container-small {
+    margin: 0 auto;
+    max-width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+}
+
+.stars {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -7px;
+}
+
+.big-azure {
+    background-color: #8ea1e1;
+    color: white;
+}
 /*Section fivecol*/
 
 .col-4 {
@@ -181,6 +207,9 @@ html {
     justify-content: space-between;
     align-items: center;
 }
+
+
+
 /*DEBUG*/
 
 .debug .body {
