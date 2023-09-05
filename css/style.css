@@ -154,6 +154,10 @@ html {
     padding: 5px 30px;
 }
 
+#gray-twocol, .onecol-big {
+    background-color: #d3d3d3;
+}
+
 #gray-twocol .row {
     flex-direction: row-reverse;
 }
