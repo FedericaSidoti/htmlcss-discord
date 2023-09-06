@@ -8,6 +8,9 @@
 img {
     max-width: 100%;
 }
+.twocol img, .onecol-big img {
+    display: block;
+}
 
 ul, ol, menu {
     list-style: none;
